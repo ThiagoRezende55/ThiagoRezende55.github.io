@@ -1,0 +1,94 @@
+/*fontes utilizadas do site*/
+@font-face
+{
+    font-family: conthrax;
+    src: url('../fontes/conthrax.ttf');
+
+}
+@font-face
+{
+    font-family: NovaMono;
+    src: url('../fontes/NovaMono.ttf');
+
+}
+body
+{
+    background-image: linear-gradient(#d4d4d4, #585858)
+}
+.tit
+{
+    background-image: linear-gradient(to bottom left,#6f6f6f,white);
+    font-family: NovaMono;
+    font-size: 50px;
+    color:firebrick;
+    text-align: center;
+    border-style: outset;
+    border-radius: 55;
+    border-width: 2px;
+    border-radius: 10px;
+    border-image:(#cd0000);
+    word-spacing: 4px;
+}
+.par1
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #6f6f6f;
+border-bottom: 2px solid black;
+border-radius: 3px;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    font-family: conthrax;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-right: 70px;
+    transition: .5s ease;
+    display:inline;
+    text-align: center;
+    word-spacing: 8px;
+    border-radius: 4px;
+    padding: 5px 5px;
+    width: 50%;
+}
+.li2
+{
+    font-family: conthrax;
+    font-weight: bold;
+    margin-left: 70px;
+    transition: .5s ease;
+    display:inline;
+    text-align: center;
+    word-spacing: 5px;
+    border-radius: 4px;
+    padding: 20px 30px;
+    width: 50%;
+}
+li:hover
+{
+    background-color: rgb(133, 133, 133) ;
+    border-color: rgb(133, 133, 133);
+}
+a
+{
+ text-decoration: none;
+ color: rgb(255, 255, 255)
+}
+.logof1 img
+{
+    width: 100px;
+    height:auto;
+}
+div:hover
+{
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    size: 100px;
+}
