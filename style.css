@@ -2,13 +2,13 @@
 @font-face
 {
     font-family: conthrax;
-    src: url('../fontes/conthrax.ttf');
+    src: url('fontes/conthrax.ttf');
 
 }
 @font-face
 {
     font-family: NovaMono;
-    src: url('../fontes/NovaMono.ttf');
+    src: url('fontes/NovaMono.ttf');
 
 }
 body
